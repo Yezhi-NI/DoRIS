@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>7</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>2</index>
+			<column>
+				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>3</index>
+			<column>
+				<formatIndex>4</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>4</index>
+			<column>
+				<formatIndex>5</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>6</index>
+			<column>
+				<formatIndex>6</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Верни результат распознавания всего документа в JSON.
+Структуру JSON определяй по структуре самого документа.
+Не используй заранее заданную бизнес-схему.
+Сохраняй исходные названия реквизитов, секций, таблиц и колонок.
+Для таблиц используй логические колонки, заданные их заголовками.
+Если один заголовок охватывает несколько физических колонок,
+считай их одной логической колонкой и объединяй соответствующие значения.
+Таблицы могут продолжаться на следующих страницах.
+Для продолжения таблицы используй структуру и заголовки таблицы с предыдущих страниц.
+Не считай первую строку продолжения таблицы новым заголовком.
+Не добавляй отсутствующие данные.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>10</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;html&gt;
+&lt;body style="font-family: Arial, sans-serif; font-size: 14px;"&gt;
+
+&lt;h3&gt;Mistral OCR&lt;/h3&gt;
+&lt;p&gt;
+Mistral OCR — сервис распознавания и интеллектуального анализа документов.
+Отличается высоким качеством распознавания сложных документов, таблиц и структуры.
+Для использования API необходимо зарегистрироваться в Mistral Studio и создать API Key.
+&lt;/p&gt;
+
+&lt;b&gt;Преимущества:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Высокое качество распознавания сложных документов и таблиц.&lt;/li&gt;
+&lt;li&gt;Сохранение структуры документа и возможность получения таблиц в Markdown или HTML.&lt;/li&gt;
+&lt;li&gt;Возможность получать структурированный результат в JSON по заданной схеме.&lt;/li&gt;
+&lt;li&gt;Можно передавать промпт с инструкциями по извлечению необходимых данных из документа.&lt;/li&gt;
+&lt;li&gt;Невысокая стоимость API — от $4 за 1000 страниц для обычного OCR.&lt;/li&gt;
+&lt;li&gt;Поддержка многоязычных документов.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;b&gt;Ограничения:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Основной API является платным сервисом.&lt;/li&gt;
+&lt;li&gt;Для постоянной работы через облачный API требуется доступ к сервисам Mistral AI.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;a href="https://docs.mistral.ai/api/endpoint/ocr"&gt;Документация Mistral OCR API&lt;/a&gt;
+&lt;br&gt;
+
+&lt;a href="https://console.mistral.ai/"&gt;Регистрация и управление API Keys&lt;/a&gt;
+&lt;br&gt;
+
+&lt;a href="https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key"&gt;
+Инструкция по созданию API Key
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>10</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;html&gt;
+&lt;body style="font-family: Arial, sans-serif; font-size: 14px;"&gt;
+
+&lt;h3&gt;PaddleOCR&lt;/h3&gt;
+&lt;p&gt;
+PaddleOCR — система распознавания текста и структуры документов.
+Для работы через официальный API необходимо зарегистрироваться в PaddlePaddle AI Studio
+и получить Access Token.
+&lt;/p&gt;
+
+&lt;b&gt;Преимущества:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Большой бесплатный лимит — до 20 000 документов для тестирования.&lt;/li&gt;
+&lt;li&gt;Возможность локального развертывания PaddleOCR без передачи документов внешнему сервису.&lt;/li&gt;
+&lt;li&gt;Открытый исходный код PaddleOCR.&lt;/li&gt;
+&lt;li&gt;Хорошо подходит для массовой обработки документов.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;b&gt;Ограничения:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;На сложных документах и таблицах качество распознавания структуры может уступать Mistral OCR.&lt;/li&gt;
+&lt;li&gt;Результат распознавания может потребовать дополнительной обработки на стороне 1С.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.paddleocr.ai/latest/en/version3.x/inference_deployment/serving/paddleocr_official_api/overview.html"&gt;
+Документация PaddleOCR Official API
+&lt;/a&gt;&lt;br&gt;
+
+&lt;a href="https://aistudio.baidu.com/account/accessToken"&gt;
+Регистрация / получение Access Token
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>6</i>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>11</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<namedItem xsi:type="NamedItemCells">
+		<name>MistralPrompt</name>
+		<area>
+			<type>Columns</type>
+			<beginRow>-1</beginRow>
+			<endRow>-1</endRow>
+			<beginColumn>0</beginColumn>
+			<endColumn>0</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ТекПараметр0</name>
+		<area>
+			<type>Columns</type>
+			<beginRow>-1</beginRow>
+			<endRow>-1</endRow>
+			<beginColumn>6</beginColumn>
+			<endColumn>6</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ТекПараметрMistralOCR</name>
+		<area>
+			<type>Columns</type>
+			<beginRow>-1</beginRow>
+			<endRow>-1</endRow>
+			<beginColumn>2</beginColumn>
+			<endColumn>2</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ТекПараметрPaddleOCR</name>
+		<area>
+			<type>Columns</type>
+			<beginRow>-1</beginRow>
+			<endRow>-1</endRow>
+			<beginColumn>4</beginColumn>
+			<endColumn>4</endColumn>
+		</area>
+	</namedItem>
+	<format>
+		<width>391</width>
+		<fillType>Text</fillType>
+	</format>
+	<format>
+		<width>33</width>
+	</format>
+	<format>
+		<width>330</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>21</width>
+	</format>
+	<format>
+		<width>323</width>
+	</format>
+	<format>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>717</height>
+	</format>
+	<format>
+		<horizontalAlignment>Auto</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+		<bySelectedColumns>false</bySelectedColumns>
+	</format>
+	<format>
+		<verticalAlignment>Top</verticalAlignment>
+	</format>
+	<format>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+</document>
