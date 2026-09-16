@@ -233,4 +233,7 @@ DoRIS распространяется на условиях **GNU Affero Genera
 
 Подробные условия находятся в файле `LICENSE`.
 
+## Обсуждение и обратная связь
+💬 [Группа в Telegram](https://t.me/afterdev)
+
 Copyright © 2026 Yezhi-NI
