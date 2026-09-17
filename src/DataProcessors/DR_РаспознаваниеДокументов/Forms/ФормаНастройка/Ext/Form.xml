@@ -179,20 +179,6 @@
 							<ContextMenu name="ApiKeyКонтекстноеМеню" id="16"/>
 							<ExtendedTooltip name="ApiKeyРасширеннаяПодсказка" id="17"/>
 						</InputField>
-						<InputField name="АК" id="32">
-							<DataPath>АК</DataPath>
-							<ReadOnly>true</ReadOnly>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Тестовый ApiKey PaddleOCR - 39670275068fcb1302f3c0aa123eedc4717d3d9c</v8:content>
-								</v8:item>
-							</ToolTip>
-							<HorizontalStretch>true</HorizontalStretch>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="АККонтекстноеМеню" id="33"/>
-							<ExtendedTooltip name="АКРасширеннаяПодсказка" id="34"/>
-						</InputField>
 						<CheckBoxField name="ПоказатьТабличныйДокумент" id="12">
 							<DataPath>ПоказатьТабличныйДокумент</DataPath>
 							<ToolTip>
@@ -209,6 +195,7 @@
 							</Events>
 						</CheckBoxField>
 						<UsualGroup name="ГруппаПропмт" id="38">
+							<Visible>false</Visible>
 							<Group>Vertical</Group>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -387,21 +374,6 @@
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 				</v8:NumberQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="АК" id="9">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Тестовый ApiKey PaddleOCR</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 		<Attribute name="Промпт" id="10">
