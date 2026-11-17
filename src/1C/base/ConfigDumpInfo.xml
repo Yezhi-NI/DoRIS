@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
+	<ConfigVersions>
+		<Metadata name="Catalog.Контрагенты" id="1b906f92-3b02-417c-909d-8ed052e0abe9" configVersion="232c8af66e9f5eb2b427e0163cdded0a8326efb2"/>
+		<Metadata name="Catalog.Пользователи" id="3b0094a1-a6a2-4f04-a73a-2aa65dad431f" configVersion="29ba2bb4bd943132e9945663a35220a9ae4e1add"/>
+		<Metadata name="CommonCommand.DR_ОткрытьНастройкиМобильногоОбмена" id="82507f9f-4377-490f-a1d9-8adba767a061" configVersion="befb469a7a0abadfc8e2d8741ec04c2235629e10"/>
+		<Metadata name="CommonCommand.DR_ОткрытьНастройкиМобильногоОбмена.CommandModule" id="82507f9f-4377-490f-a1d9-8adba767a061.2" configVersion="d9e75b7e24c8577e99a67a039efe2014692365d3"/>
+		<Metadata name="CommonForm.DR_НастройкиМобильногоОбмена" id="3ced87d9-bf86-4b1c-9826-8c131ce68a9f" configVersion="e1535313c4fa394e78416e163a3fad5961e99c26"/>
+		<Metadata name="CommonForm.DR_НастройкиМобильногоОбмена.Form" id="3ced87d9-bf86-4b1c-9826-8c131ce68a9f.0" configVersion="6fd50ff8d208ab9d3e0393be09bcdd600e7bfe92"/>
+		<Metadata name="CommonModule.DR_DocumentFactory" id="8e7cb9be-7e02-4d97-a587-c6bdd3c77445" configVersion="87eba4593c9f5b077434a20b9d404a67573cbe27"/>
+		<Metadata name="CommonModule.DR_DocumentFactory.Module" id="8e7cb9be-7e02-4d97-a587-c6bdd3c77445.0" configVersion="0ed7dc30cfdf0f96ff1dbeb0e9202d338fb2276f"/>
+		<Metadata name="CommonModule.DR_DocumentProcessor" id="fdbcedc4-359b-4cdd-991f-927829efcba1" configVersion="a540363cbff438197157d0061e2668c72d2610c1"/>
+		<Metadata name="CommonModule.DR_DocumentProcessor.Module" id="fdbcedc4-359b-4cdd-991f-927829efcba1.0" configVersion="c869b3547688163952a064e7d4f9957f6a0bac0d"/>
+		<Metadata name="CommonModule.DR_HttpClient" id="809d52d9-87e3-4a49-9d0f-dc1699254950" configVersion="3c7967b02331540c37212ea6e39fce15e0c1b8d7"/>
+		<Metadata name="CommonModule.DR_HttpClient.Module" id="809d52d9-87e3-4a49-9d0f-dc1699254950.0" configVersion="58aa7a90e3181ad0a85fdaf401b306498983bd26"/>
+		<Metadata name="CommonModule.DR_LocalPaddleProvider" id="70b4ee40-49bd-47cb-aac9-f6229f987d09" configVersion="c78026e209e987aaa987dd0e6df8e8fcd55a4d5d"/>
+		<Metadata name="CommonModule.DR_LocalPaddleProvider.Module" id="70b4ee40-49bd-47cb-aac9-f6229f987d09.0" configVersion="68b7621e7f1cf76f9b403c1a1cd8102378dd9383"/>
+		<Metadata name="CommonModule.DR_MistralCloudProvider" id="7291e66e-f1b1-449a-b652-4039cc0ec98c" configVersion="6559a8bb1e29938ac69af870b3960173c1ed6588"/>
+		<Metadata name="CommonModule.DR_MistralCloudProvider.Module" id="7291e66e-f1b1-449a-b652-4039cc0ec98c.0" configVersion="a810ad2fc8001baec7f20362a0ef469ac963e2b7"/>
+		<Metadata name="CommonModule.DR_MobileFiles" id="e6ff6b1a-114e-462d-a98b-58e53526b23a" configVersion="a13c6cc5af4be696d23208b40572489bbaa024f9"/>
+		<Metadata name="CommonModule.DR_MobileFiles.Module" id="e6ff6b1a-114e-462d-a98b-58e53526b23a.0" configVersion="3a3f373b6fac61c00b6da2233e93fb401f48439d"/>
+		<Metadata name="CommonModule.DR_MobileFolderImport" id="fe5165b8-6fc8-41a4-8f5d-c3232c002ffc" configVersion="ce88b74dff21a09d45b0e8787466c2f984426579"/>
+		<Metadata name="CommonModule.DR_MobileFolderImport.Module" id="fe5165b8-6fc8-41a4-8f5d-c3232c002ffc.0" configVersion="f2ad6d6bea15325c3dc89fa98311a301c8b45461"/>
+		<Metadata name="CommonModule.DR_MobileHttp" id="9abc0a72-ac63-46ec-9017-7db12369e9f7" configVersion="0631b7faad4c6bd0410ef134a79172adcbd60938"/>
+		<Metadata name="CommonModule.DR_MobileHttp.Module" id="9abc0a72-ac63-46ec-9017-7db12369e9f7.0" configVersion="1484b4b5b283e6599feac238a10787c93127de3e"/>
+		<Metadata name="CommonModule.DR_MobileMultipart" id="88fb9971-ad6d-4e7c-88f1-ad2ea8d45179" configVersion="4cb025fad297a20070637e4bbf52bced3d6af72f"/>
+		<Metadata name="CommonModule.DR_MobileMultipart.Module" id="88fb9971-ad6d-4e7c-88f1-ad2ea8d45179.0" configVersion="80b525c376c7a74ba56c35ff6f3be8e077fd33f9"/>
+		<Metadata name="CommonModule.DR_MobileSettings" id="aef9d6a9-b45f-41fb-aa11-48364d9ffb00" configVersion="06d2ed8336a71b78832155fac205fcc9d3b03d04"/>
+		<Metadata name="CommonModule.DR_MobileSettings.Module" id="aef9d6a9-b45f-41fb-aa11-48364d9ffb00.0" configVersion="aab43562c1d8396e2e9940c7142b032fab0dcbb3"/>
+		<Metadata name="CommonModule.DR_MobileStorage" id="0e7baf18-8961-455c-abb3-6f81103979f1" configVersion="3e58ccbe08823a42d7835e749693b08c6657b0c8"/>
+		<Metadata name="CommonModule.DR_MobileStorage.Module" id="0e7baf18-8961-455c-abb3-6f81103979f1.0" configVersion="56631d91b02e4895c7876a960841b43cb22f106a"/>
+		<Metadata name="CommonModule.DR_PaddleCloudProvider" id="3fbd77d8-7401-4886-831b-18845780d93b" configVersion="4dd921927593cb50472e2d5d5294379952e62dc4"/>
+		<Metadata name="CommonModule.DR_PaddleCloudProvider.Module" id="3fbd77d8-7401-4886-831b-18845780d93b.0" configVersion="8b842ff163debb175af91052b3cc8856a3542066"/>
+		<Metadata name="CommonModule.DR_RecognitionService" id="15265d83-6a98-4e4b-8ea2-d306f1558176" configVersion="64d311f09d7b384a4a6be4d095d19ae00a9edfcb"/>
+		<Metadata name="CommonModule.DR_RecognitionService.Module" id="15265d83-6a98-4e4b-8ea2-d306f1558176.0" configVersion="2f20dd6c4571ee0d65fa384258ca5bc6e712431a"/>
+		<Metadata name="CommonModule.DR_Settings" id="4fda1b89-5964-4b9f-b7c8-cdb579eefa6e" configVersion="a66b425bb76fe4a7e267061e72619bc5102da098"/>
+		<Metadata name="CommonModule.DR_Settings.Module" id="4fda1b89-5964-4b9f-b7c8-cdb579eefa6e.0" configVersion="578096d5c2a2ce9eef2e0beb2a9f88ff5bea17cf"/>
+		<Metadata name="CommonModule.DR_Validation" id="28d22718-c86f-4726-a83b-81f865fb6c04" configVersion="42e3e7f3535d8f0e1186d6393769f4c180fad3db"/>
+		<Metadata name="CommonModule.DR_Validation.Module" id="28d22718-c86f-4726-a83b-81f865fb6c04.0" configVersion="00db350399315b6a098cc2f511d6942910d64f15"/>
+		<Metadata name="CommonPicture.DR_ОбщаяКартинка64" id="23896edd-a4de-4278-9849-4d93da086ba6" configVersion="181d0e0509bab8cd4f2f6f196209a0f0c400fa3c"/>
+		<Metadata name="CommonPicture.DR_ОбщаяКартинка64.Picture" id="23896edd-a4de-4278-9849-4d93da086ba6.0" configVersion="93a71a9013d29c90c9d208d85341c755b3f7c8c2"/>
+		<Metadata name="Configuration.DoRIS_БК3" id="c7e34654-f38c-4e5a-bc8b-1a0d641fb402" configVersion="6a8d73ac690877488a4fed6361a698b4d2d92bd6"/>
+		<Metadata name="Constant.DR_АдресПубликацииМобильногоОбмена" id="ce54aaf8-8cf1-4d3a-9523-e9b195c0c387" configVersion="5c399fb864129c3c4a94a3c472f6fc70bdbb131c"/>
+		<Metadata name="Constant.DR_АктивныйАдаптер" id="ac4283b4-5b68-46c1-802b-cd07f46cf27a" configVersion="babc3064881809568771dfaa43c500d728d76e7f"/>
+		<Metadata name="Constant.DR_ПоказатьТабличныйДокумент" id="0d85f1b2-58af-452e-b2c6-9ed2dfc9e688" configVersion="24290eae743c85d982aab403bde278091ebd6611"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов" id="819432fe-e377-44d8-befc-ee7656541348" configVersion="4da002606e5c095e09c65b15ce2e775bec698c27"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Form.Форма" id="9c5e1658-8901-48ad-89c3-fbde16170958" configVersion="064be38d68c596173661ced68135c5d569f58ef6"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Form.Форма.Form" id="9c5e1658-8901-48ad-89c3-fbde16170958.0" configVersion="77cc4173b121a1b4ec52bf4e392ad1d22aba8fc3"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Form.ФормаМобильныеДокументы" id="4bf950ce-8d0d-430e-b66a-bc9960242251" configVersion="aa977ed20c5570193cec79b3f874b6da954b7df6"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Form.ФормаМобильныеДокументы.Form" id="4bf950ce-8d0d-430e-b66a-bc9960242251.0" configVersion="87fc075d319921ba5221f926774b98d8e4d2ee5f"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Form.ФормаНастройка" id="8053ec5c-f717-4ca1-99d6-ed8801b4abe5" configVersion="e3feb2e3340ae8dfa40913b0610722fda9adcf7a"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Form.ФормаНастройка.Form" id="8053ec5c-f717-4ca1-99d6-ed8801b4abe5.0" configVersion="5069a8d27d1b9e5c3d6f0113f2fa95ba3b4a8e2a"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Template.МакетТаблица" id="99410d1e-6726-4b5e-bb6c-efdd4bd1a855" configVersion="87a3f762355ad632cf79b089252d197d756620ca"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Template.МакетТаблица.Template" id="99410d1e-6726-4b5e-bb6c-efdd4bd1a855.0" configVersion="295567c99d82fd0d1bc097e3bb4f79619684bc8f"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Template.МакетТекст" id="9d111d7f-8ea3-48bc-8a42-241136e55424" configVersion="087f92226c11ea078c426682c0bcdf840c012b9d"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Template.МакетТекст.Template" id="9d111d7f-8ea3-48bc-8a42-241136e55424.0" configVersion="817f1421a19c1b9c44bee129933857e266a216c8"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Template.ПримерПромпт" id="9b45eb73-625f-46ce-b312-a9b18fd2d275" configVersion="b94c57c510f8792968da03cab6ef5869570a9185"/>
+		<Metadata name="DataProcessor.DR_РаспознаваниеДокументов.Template.ПримерПромпт.Template" id="9b45eb73-625f-46ce-b312-a9b18fd2d275.0" configVersion="03be65f9821b4a9ab862345ea5e86cb15c2b7ce3"/>
+		<Metadata name="Document.ПоступлениеТоваровУслуг" id="347dfd67-3d23-4fc7-a059-1692a2e1ee57" configVersion="25002aa2126da34bf8836066804306eb4697d6ed"/>
+		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаДокументаОбщая" id="1b2936bc-68a8-4033-8f33-d1a0d253c82c" configVersion="a188a79dff1810c2278b3fc764a78d4d7be539ce"/>
+		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаДокументаОбщая.Form" id="1b2936bc-68a8-4033-8f33-d1a0d253c82c.0" configVersion="ac31333d2bc8c65405107de836deee069b9ab9e1"/>
+		<Metadata name="Enum.DR_ИсточникиПриемаМобильныхДокументов" id="d118d381-da8f-410e-bb0d-064fe2d1c010" configVersion="876f778b79c4569759acccc3edaec51a9cbca316">
+			<Metadata name="Enum.DR_ИсточникиПриемаМобильныхДокументов.EnumValue.Папка" id="1c8ac5f8-2e1d-4066-a3a6-6ff43ed36f5e"/>
+			<Metadata name="Enum.DR_ИсточникиПриемаМобильныхДокументов.EnumValue.HTTP" id="efd92182-c428-43ae-b2f3-c69634188e92"/>
+		</Metadata>
+		<Metadata name="Enum.DR_СостоянияМобильныхДокументов" id="f17941e0-3d45-4372-9b59-59891191edb6" configVersion="e0054c16cf51d810ca383dcfbd8cc384c5a0cc37">
+			<Metadata name="Enum.DR_СостоянияМобильныхДокументов.EnumValue.Распознается" id="3662b85a-59a9-4bf8-b34d-1ff35eeb777f"/>
+			<Metadata name="Enum.DR_СостоянияМобильныхДокументов.EnumValue.Принят" id="5190db54-3fd0-4d45-861f-b37b08ad60ed"/>
+			<Metadata name="Enum.DR_СостоянияМобильныхДокументов.EnumValue.Распознан" id="a7c0f0b9-1582-4420-9e42-d06952fad1c8"/>
+			<Metadata name="Enum.DR_СостоянияМобильныхДокументов.EnumValue.ОшибкаРаспознавания" id="d19370b1-8d73-4097-9598-3fb0b0b806a8"/>
+		</Metadata>
+		<Metadata name="Enum.DR_СпособыМобильногоОбмена" id="024fca92-bedc-4486-b259-36aa539e0697" configVersion="d2c33162250d88d988900aac8c40f84d166eb2ee">
+			<Metadata name="Enum.DR_СпособыМобильногоОбмена.EnumValue.База1С" id="4e37e534-bd20-4a65-a26a-32951f2de725"/>
+			<Metadata name="Enum.DR_СпособыМобильногоОбмена.EnumValue.Папка" id="55be170c-da59-48ca-ab1c-41071a1f0a84"/>
+		</Metadata>
+		<Metadata name="HTTPService.DR_MobileHTTPService" id="f44e6b6b-1e8d-4192-b2dc-f222a4fc4b6f" configVersion="d41b5ea1dfef2c5b7ada1036baba5bf8f86539e6">
+			<Metadata name="HTTPService.DR_MobileHTTPService.URLTemplate.Информация" id="4a101da8-18c0-48ec-a149-4fdc2118d5d3"/>
+			<Metadata name="HTTPService.DR_MobileHTTPService.URLTemplate.Документ" id="5935b8d4-7a88-4212-a340-c5843ac1160e"/>
+			<Metadata name="HTTPService.DR_MobileHTTPService.URLTemplate.Документы" id="665ae8e9-31d8-47cf-98be-8fa8f54c934a"/>
+			<Metadata name="HTTPService.DR_MobileHTTPService.URLTemplate.Документы.Method.POST" id="8c0bf942-d442-408d-a602-307f004e6d9d"/>
+			<Metadata name="HTTPService.DR_MobileHTTPService.URLTemplate.ПроверкаПользователя" id="905c61a8-00fe-4b68-9725-efdd96c861bc"/>
+			<Metadata name="HTTPService.DR_MobileHTTPService.URLTemplate.Информация.Method.GET" id="b047c62d-061d-4259-8bcc-59f69507016e"/>
+			<Metadata name="HTTPService.DR_MobileHTTPService.URLTemplate.ПроверкаПользователя.Method.GET" id="cfaf60fb-5455-4eb7-9d85-5a0e99b10d92"/>
+			<Metadata name="HTTPService.DR_MobileHTTPService.URLTemplate.Документ.Method.GET" id="ddb5e8cc-2dc0-418b-9c59-23adb2b7aab5"/>
+		</Metadata>
+		<Metadata name="HTTPService.DR_MobileHTTPService.Module" id="f44e6b6b-1e8d-4192-b2dc-f222a4fc4b6f.0" configVersion="04169255031652d78e7cc016089161dafeb76e14"/>
+		<Metadata name="InformationRegister.DR_НастройкиАдаптера" id="d1e6f6cb-275a-4aa3-bf5c-51e1e1efb572" configVersion="eece3076e0426ea3b99877833b32fcca005b3859">
+			<Metadata name="InformationRegister.DR_НастройкиАдаптера.Dimension.Провайдер" id="1df0c8ce-0e01-47a9-bbc9-84e8b605829b"/>
+			<Metadata name="InformationRegister.DR_НастройкиАдаптера.Dimension.АдресРесурса" id="68a1bc79-91ea-48d1-8855-6c3609829143"/>
+			<Metadata name="InformationRegister.DR_НастройкиАдаптера.Dimension.Таймаут" id="7c703bd8-91be-4db5-bbb6-92af039c1732"/>
+			<Metadata name="InformationRegister.DR_НастройкиАдаптера.Dimension.АдресСервиса" id="7ea92634-f9e3-47ef-93a1-5dfa9810e0a4"/>
+			<Metadata name="InformationRegister.DR_НастройкиАдаптера.Dimension.Порт" id="99a6b3a4-6920-456d-8b35-29fce231a6d4"/>
+			<Metadata name="InformationRegister.DR_НастройкиАдаптера.Dimension.ApiKey" id="c53af9c0-6cae-496b-8b17-f3a965b9c7fd"/>
+			<Metadata name="InformationRegister.DR_НастройкиАдаптера.Resource.Промпт" id="e6b05462-7d65-4ee2-ba67-bee49dd97b5c"/>
+			<Metadata name="InformationRegister.DR_НастройкиАдаптера.Dimension.ТипАдаптера" id="f7324574-6fa1-4a6f-b3e1-bc78727014f1"/>
+		</Metadata>
+		<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов" id="c71707e7-9c6e-459a-8f54-41a2abed006d" configVersion="41e4bba4ed304d6a3060df6b89c28f4b3f16bb06">
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Resource.МаксимумДокументовЗаЗапуск" id="1fa89613-2396-4324-b332-97a4b5ffa943"/>
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Resource.ПутьКПапке" id="2034f9cd-624a-44d0-9861-1cea40ee4cc5"/>
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Resource.ТокенМобильногоДоступа" id="482864db-7042-4360-a7c3-f4b708c0549e"/>
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Resource.АвтоматическиИмпортировать" id="70e493e7-4708-43de-9cba-212c5bd3561f"/>
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Resource.РазрешенМобильныйОбмен" id="91295eec-4184-467f-a508-6da126d63905"/>
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Dimension.ИдентификаторПользователя" id="c7ef799d-9cfd-47e0-8bea-94dac0a72f84"/>
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Resource.ДатаИзменения" id="d25c63c9-02bf-44a4-913b-4cbe5bfefa1d"/>
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Resource.ТокенФайловогоОбмена" id="d292a230-e1cd-4d6e-b0bd-fde46b646ef3"/>
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Resource.СпособПередачи" id="d61a2bb2-0b95-40b6-8436-d7e28fdee79c"/>
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Dimension.Пользователь" id="ed3cb7d6-d184-4bd6-b5b3-f226292d98ee"/>
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Resource.АвтоматическиОбрабатывать" id="f602cb86-c31f-4eff-a364-47c818b1fb06"/>
+			<Metadata name="InformationRegister.DR_НастройкиМобильныхДокументов.Resource.ИмяПользователя" id="f6a7ef4a-9cac-454c-a1e9-9e7dc0698ed0"/>
+		</Metadata>
+		<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы" id="921f2b29-905a-401d-9196-8dbd8e7deb73" configVersion="e508f34fea366316b93a7f629b94184530143ae5">
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.Манифест" id="1bdf27a5-3b4b-4bac-87ea-7a582a523097"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.UUIDПользователяИБ" id="5a7af554-531a-482d-9b49-fb5418d134e7"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.Контрагент" id="66b3bfe5-3672-4044-adb0-27b9b78ee5a7"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.Оригиналы" id="975c1768-2a06-43f3-b287-3868d9244ef4"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.ИдентификаторКвитанции" id="9d007933-f09d-40ce-b881-3baa864b5197"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.ТипДокумента" id="9dcdcf7b-423b-4d1f-86cc-6821bf685354"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Dimension.ИдентификаторПользователя" id="a8df2e6d-671f-4c29-940e-06c71e6644e5"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.ДатаПриемаUTC" id="ac405254-3935-4b6c-910b-a0679a7078ba"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.ИсточникПриема" id="aec3ff0c-8319-43df-98a7-f8c0763704ce"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.Документ1С" id="b7240d8a-0528-4ef8-a6f5-dd60eddb5845"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.Состояние" id="b9256407-8896-44ae-8c39-385f67238615"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Dimension.UUIDДокумента" id="bbf5ff41-c254-48ca-b126-91138b8e764f"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.СозданныйДокумент" id="c0519756-a16e-4424-93e9-6f6db2e90b45"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.КоличествоСтраниц" id="c1a495fa-f906-42f9-a26c-600fc990716c"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.ДатаПриема" id="d8c2b9af-0dcd-47e4-9fac-1301f5ff1ea9"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.КаталогОригиналов" id="e8d21931-9176-471c-9525-d94a405cdf72"/>
+			<Metadata name="InformationRegister.DR_ПринятыеМобильныеДокументы.Resource.ТипСозданногоДокумента" id="ef8cbafb-78a4-475c-a091-722e82f2aeb3"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="88f8e244-f066-4428-bd12-42912753e16e" configVersion="446f9d652545470dd37f09fcf2c00885ce57ce59"/>
+		<Metadata name="Role.DR_ОсновнаяРоль" id="69b774f8-5918-4b24-b33a-ac6753b1d94f" configVersion="74037b32c1a0be5ae2d0e27d739092e2913a8cf5"/>
+		<Metadata name="Subsystem.Покупка" id="60c3fef2-dbfc-4bc0-a490-c78160b360a2" configVersion="9d490a23d2a908e83adb258ee8d293c0879fd442"/>
+		<Metadata name="Subsystem.Покупка.CommandInterface" id="60c3fef2-dbfc-4bc0-a490-c78160b360a2.1" configVersion="0f85b90e45e941b2dc06b45462f714d04338b0e0"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

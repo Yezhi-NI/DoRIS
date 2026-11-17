@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="Сохранить" id="1040">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Сохранить</CommandName>
+				<ExtendedTooltip name="СохранитьExtendedTooltip" id="1041"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Пользователь" id="1">
+			<DataPath>Пользователь</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователь 1С</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ПользовательКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="OnChange">ПользовательПриИзменении</Event>
+			</Events>
+		</InputField>
+		<CheckBoxField name="РазрешенОбмен" id="4">
+			<DataPath>РазрешенОбмен</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мобильный обмен разрешён</v8:content>
+				</v8:item>
+			</Title>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="РазрешенОбменКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="РазрешенОбменРасширеннаяПодсказка" id="6"/>
+			<Events>
+				<Event name="OnChange">НастройкиПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<InputField name="АдресПубликации" id="10">
+			<DataPath>АдресПубликации</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес публикации</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="АдресПубликацииКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="АдресПубликацииРасширеннаяПодсказка" id="12"/>
+			<Events>
+				<Event name="OnChange">НастройкиПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="ПутьХранилища" id="214">
+			<DataPath>ПутьХранилища</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папка DoRIS на сервере</v8:content>
+				</v8:item>
+			</Title>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="ПутьХранилищаКонтекстноеМеню" id="215"/>
+			<ExtendedTooltip name="ПутьХранилищаРасширеннаяПодсказка" id="216"/>
+			<Events>
+				<Event name="OnChange">НастройкиПриИзменении</Event>
+				<Event name="StartChoice">ПутьХранилищаНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<UsualGroup name="ГруппаТокены" id="1000">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Токены</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаТокеныРасширеннаяПодсказка" id="1001"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаСетевойТокен" id="1003">
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСетевойТокенРасширеннаяПодсказка" id="1004"/>
+					<ChildItems>
+						<InputField name="СетевойТокен" id="1005">
+							<DataPath>СетевойТокен</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сетевой токен</v8:content>
+								</v8:item>
+							</Title>
+							<PasswordMode>true</PasswordMode>
+							<ContextMenu name="СетевойТокенContextMenu" id="1006"/>
+							<ExtendedTooltip name="СетевойТокенExtendedTooltip" id="1007"/>
+						</InputField>
+						<Button name="ПоказатьСетевойТокен" id="1009">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.ПоказатьСетевойТокен</CommandName>
+							<ShapeRepresentation>Always</ShapeRepresentation>
+							<ExtendedTooltip name="ПоказатьСетевойТокенExtendedTooltip" id="1010"/>
+						</Button>
+						<Button name="ОчиститьСетевойТокен" id="1012">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ОчиститьСетевойТокен</CommandName>
+							<ExtendedTooltip name="ОчиститьСетевойТокенExtendedTooltip" id="1013"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаФайловыйТокен" id="1015">
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаФайловыйТокенРасширеннаяПодсказка" id="1016"/>
+					<ChildItems>
+						<InputField name="ФайловыйТокен" id="1017">
+							<DataPath>ФайловыйТокен</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Файловый токен</v8:content>
+								</v8:item>
+							</Title>
+							<PasswordMode>true</PasswordMode>
+							<ContextMenu name="ФайловыйТокенContextMenu" id="1018"/>
+							<ExtendedTooltip name="ФайловыйТокенExtendedTooltip" id="1019"/>
+						</InputField>
+						<Button name="ПоказатьФайловыйТокен" id="1021">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.ПоказатьФайловыйТокен</CommandName>
+							<ExtendedTooltip name="ПоказатьФайловыйТокенExtendedTooltip" id="1022"/>
+						</Button>
+						<Button name="ОчиститьФайловыйТокен" id="1024">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ОчиститьФайловыйТокен</CommandName>
+							<ExtendedTooltip name="ОчиститьФайловыйТокенExtendedTooltip" id="1025"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<Button name="СгенерироватьТокены" id="1027">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СгенерироватьТокены</CommandName>
+					<ExtendedTooltip name="СгенерироватьТокеныExtendedTooltip" id="1028"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПодключение" id="1029">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключение</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаПодключениеРасширеннаяПодсказка" id="1030"/>
+			<ChildItems>
+				<Button name="СформироватьQR" id="1032">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СформироватьQR</CommandName>
+					<ExtendedTooltip name="СформироватьQRExtendedTooltip" id="1033"/>
+				</Button>
+				<PictureField name="АдресQR" id="13">
+					<DataPath>АдресQR</DataPath>
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>QR-код</v8:content>
+						</v8:item>
+					</Title>
+					<Width>30</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>11</Height>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<PictureSize>Proportionally</PictureSize>
+					<ContextMenu name="АдресQRКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="АдресQRРасширеннаяПодсказка" id="15"/>
+				</PictureField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Пользователь" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РазрешенОбмен" id="2">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресПубликации" id="4">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресQR" id="5">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПутьХранилища" id="22">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>250</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РезультатИмпорта" id="24">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СетевойТокен" id="1002">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>64</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ФайловыйТокен" id="1014">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>64</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПоказатьСетевойТокен" id="1008">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ПоказатьСетевойТокен</Action>
+		</Command>
+		<Command name="ОчиститьСетевойТокен" id="1011">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ОчиститьСетевойТокен</Action>
+		</Command>
+		<Command name="ПоказатьФайловыйТокен" id="1020">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ПоказатьФайловыйТокен</Action>
+		</Command>
+		<Command name="ОчиститьФайловыйТокен" id="1023">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ОчиститьФайловыйТокен</Action>
+		</Command>
+		<Command name="СгенерироватьТокены" id="1026">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенерировать токены</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СгенерироватьТокены</Action>
+		</Command>
+		<Command name="СформироватьQR" id="1031">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать QR-код</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СформироватьQR</Action>
+		</Command>
+		<Command name="Сохранить" id="1039">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Сохранить</Action>
+		</Command>
+	</Commands>
+</Form>
